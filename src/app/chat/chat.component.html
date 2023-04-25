@@ -1,0 +1,139 @@
+
+<div class="vertical-sidebar">
+
+ <div class="app-icon">
+  <button class="mat-icon-button" >
+  <mat-icon  class="icns"> border_all</mat-icon>
+</button>
+</div>
+
+  <button class="mat-icon-button" >
+  <mat-icon class="icns">question_answer</mat-icon>
+</button>
+
+<button class="mat-icon-button" >
+<mat-icon class="icns">account_circle</mat-icon>
+</button>
+
+<button class="mat-icon-button">
+  <mat-icon class="icns">dashboard</mat-icon>
+</button>
+
+  <button class="mat-icon-button">
+    <mat-icon class="icns">language</mat-icon>
+  </button>
+
+  <button class="mat-icon-button">
+    <mat-icon class="icns">trending_up</mat-icon>
+  </button>
+
+
+
+  <button class="mat-icon-button">
+    <mat-icon class="icns">admin_panel_settings</mat-icon>
+  </button>
+
+  <button class="mat-icon-button">
+    <mat-icon class="icns">speaker_notes</mat-icon>
+  </button>
+
+  <button class="mat-icon-button">
+    <mat-icon class="icns">stairs</mat-icon>
+  </button>
+
+  <button class="mat-icon-button">
+    <mat-icon class="icns">scanner</mat-icon>
+  </button>
+
+
+  <div class="bottomicons">
+  <button class="mat-icon-button">
+  <mat-icon class="icns">settings</mat-icon>
+</button>
+  <button class="mat-icon-button">
+  <mat-icon class="icns">account_box</mat-icon>
+</button>
+</div>
+</div>
+
+
+<mat-toolbar >
+  <mat-toolbar-row>
+   <img src="https://cdn-icons-png.flaticon.com/512/165/165406.png" alt="ai logo" width="3%">
+    <h2 class="main-head">Instinct AI</h2>
+    <span class="navbar-text">AI engine to analyze chat conversation detecting user intent asnswering queries automatically <br>and handing off-target conversations</span>
+    <span class="navbar-spacer"></span>
+
+  </mat-toolbar-row>
+  <mat-toolbar-row>
+    <span class="navbar-spacer"></span>
+      <button class="num">+91 63505 45458</button>
+      <div class="vl"></div>
+
+    <button class="ics">
+      <mat-icon>notifications</mat-icon>
+    </button>
+    <button class="ics">
+      <mat-icon>power_settings_new</mat-icon>
+    </button>
+
+
+  </mat-toolbar-row>
+
+</mat-toolbar>
+
+
+
+<div class="page-wrapper">
+  <div class="card-wrapper">
+    <div class="card-container ">
+
+<mat-card class="example-card custom-background" >
+  <mat-card-header>
+    <mat-card-title-group>
+      <mat-card-title>Train your bot</mat-card-title>
+      <mat-card-subtitle>Improve erformance by providing user utternaces or frequently asked question</mat-card-subtitle>
+    </mat-card-title-group>
+  </mat-card-header>
+
+</mat-card>
+  <mat-divider></mat-divider>
+
+
+
+
+<mat-card class="example-card custom-background" >
+  <mat-card-header>
+    <mat-card-title-group>
+      <mat-card-title>Intents</mat-card-title>
+      <mat-card-subtitle>View all intents you've created to improve the bot performance</mat-card-subtitle>
+    </mat-card-title-group>
+  </mat-card-header>
+</mat-card>
+  <mat-divider></mat-divider>
+
+
+
+<mat-card class="example-card custom-background" routerLink="/catch" (click)="showNewComponent()" [class.white-background]="isActive">
+  <mat-card-header>
+    <mat-card-title-group>
+      <mat-card-title>Catch all</mat-card-title>
+      <mat-card-subtitle>Setup flows to handle unasnwered or not helpful responses</mat-card-subtitle>
+    </mat-card-title-group>
+  </mat-card-header>
+</mat-card>
+ <mat-divider></mat-divider>
+<mat-card class="example-card custom-background" routerLink="/summary" (click)="goToSummary()" >
+  <mat-card-header>
+    <mat-card-title-group>
+      <mat-card-title>Summary</mat-card-title>
+      <mat-card-subtitle>Learn how your bot is performing and how you can make it better</mat-card-subtitle>
+    </mat-card-title-group>
+  </mat-card-header>
+</mat-card>
+
+</div>
+</div>
+</div>
+
+

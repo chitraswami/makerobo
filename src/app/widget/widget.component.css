@@ -1,0 +1,268 @@
+.mat-toolbar-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+}
+
+.mat-card {
+  transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: block;
+  position: relative;
+  border-radius: 4px;
+  margin-left: 116px;
+  margin-top: 30px;
+}
+
+.navbar-text {
+  margin-right: 12px;
+}
+
+.navbar-spacer {
+  flex: 1;
+}
+
+.example-card {
+  max-width: 400px;
+  margin-bottom: 8px;
+
+}
+
+.sidebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar button {
+  margin-bottom: 10px;
+}
+
+.vertical-sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 5%;
+  background-color: #ccc;
+  z-index: 1;
+  overflow-y: scroll;
+}
+
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  display: block;
+    padding: 16px;
+    margin-left: 33%;
+}
+.contan {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+    padding: 1px;
+    margin-left: 34%;
+    align-items: center
+}
+.container p {
+  font-size: 15px;
+}
+
+.container h2 {
+  margin: 0 0 1px;
+}
+
+.contan h2 {
+  margin: 0 0 1px;
+}
+
+.example-box h2
+{
+  font: 500 17px/20px Roboto, "Helvetica Neue", sans-serif;
+  letter-spacing: normal;
+  margin: 7px 0 3px;
+
+}
+
+h1 {
+  font-size: 14px;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 15px;
+  color: rgba(0,0,0,.54);
+}
+
+.btn {
+  background-color: #00826b;
+  border: none;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0069d9;
+}
+
+.icon {
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.example-sidebar {
+  position: absolute;
+  top: 105px;
+  right: 267px;  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding: 16px;
+}
+
+.example-box {
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+    margin-right: 460px;
+    width: 78%;
+    margin-top: 20px;
+}
+
+.contain {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #ccc;
+}
+
+h1 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.btn {
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.dropdown-menu {
+  background-color: #f8f9fa;
+  border: none;
+}
+
+.dropdown-item.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.dropdown-item {
+  color: #343a40;
+}
+
+.dropdown-item:hover {
+  background-color: #f2f2f2;
+}
+
+
+
+.btn-pink{
+  background-color: #ffc0cb5c;
+  color: red;
+  padding: 5px;
+  border-radius: 5px;
+  border-color: #ff000091;
+  font-weight: 600;
+}
+
+.btn-orange{
+  background-color: #ffa50042;
+  color: orange;
+  padding: 5px;
+  border-radius: 5px;
+  border-color: #ffa50042;
+  font-weight: 600;
+}
+
+.btn-purple{
+  background-color: #8000801a;
+  color: purple;
+  padding: 5px;
+  border-radius: 5px;
+  border-color: #8000801a;
+  font-weight: 600;
+}
+
+.btn-ryt{
+float: right;
+padding: 4px;
+font-weight: 400;
+}
+
+.left-in{
+display: flex;
+align-items: self-start;
+}
+.left-rit{
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.btn-clr {
+  margin-left: 10px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+.srt{
+  margin-right: 10px;
+}
+
+.h2{
+  font: 500 20px/20px Roboto, "Helvetica Neue", sans-serif;
+  letter-spacing: normal;
+  margin: 0 0 1px;
+}
+
+.divider {
+  background-color: #f2f2f2;
+  position: absolute;
+  width: 38%;
+  right: 27.6%;
+}

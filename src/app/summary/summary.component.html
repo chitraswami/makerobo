@@ -1,0 +1,48 @@
+
+<div class="summary-container">
+<h2>Summary</h2>
+<p>Discover which intents are most regularly queried and gain a deeper understanding into the interests of your users.</p>
+
+<div class="search-box">
+
+  <mat-form-field>
+    <input matInput placeholder="search intent and utternance" (keyup)="applyFilter($event.target.value)">
+  </mat-form-field>
+
+
+<table mat-table [dataSource]="filteredData" class="mat-elevation-z8">
+
+  <ng-container matColumnDef="Intent">
+    <th mat-header-cell *matHeaderCellDef> Intent </th>
+    <td mat-cell *matCellDef="let element"> {{element.Intent}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="messages">
+    <th mat-header-cell *matHeaderCellDef> Messages </th>
+    <td mat-cell *matCellDef="let element"> {{element.messages}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="importance">
+    <th mat-header-cell *matHeaderCellDef> Importance </th>
+    <td mat-cell *matCellDef="let element"> {{element.importance}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="Accuracy">
+    <th mat-header-cell *matHeaderCellDef> Accuracy </th>
+    <td mat-cell *matCellDef="let element"> {{element.Accuracy}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="Catch">
+    <th mat-header-cell *matHeaderCellDef> Catch all </th>
+    <td mat-cell *matCellDef="let element"> {{element.Catch}} </td>
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+</table>
+
+</div>
+
+
+</div>
+

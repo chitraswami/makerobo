@@ -1,0 +1,74 @@
+<div class="container">
+  <h2>Add a new uttrances</h2>
+  <p>Create an intent and add multiple utternaces to let instinct AI answers automatically</p>
+  <button class="btn">
+    <span class="icon">+</span> Add Intent
+  </button>
+</div>
+
+<div class="divider">
+  <mat-divider></mat-divider>
+
+</div>
+<div class="contan">
+  <div class="left-in">
+     <h2>Insights</h2>
+    <button class="btn-clr"> Clear all</button>
+  </div>
+  <div class="left-rit">
+  <p class="srt">sort by</p>
+  <mat-form-field  appearance="fill">
+    <mat-label>Priority</mat-label>
+    <mat-select disableRipple >
+      <mat-option value="1">Priority</mat-option>
+      <mat-option value="2">Unanswered</mat-option>
+      <mat-option value="3">Imrpove coverage</mat-option>
+      <mat-option value="3">underperforming</mat-option>
+    </mat-select>
+  </mat-form-field>
+</div>
+</div>
+<div class="divider">
+  <mat-divider></mat-divider>
+
+</div>
+
+
+<div class="wid">
+
+<div class="example-card">
+<div class="example-sidebar">
+  <div class="example-box">
+    <button mat-icon-button  class="btn-pink">
+      Unanswered
+    </button>
+    <button  class="btn-ryt">
+      Map to existing reply
+    </button>
+    <h2 class="htext"> Do you deal in real state</h2>
+    <button class="btn-ryt">
+      Add reply
+    </button>
+    <p>asked 32 times last week</p>
+  </div>
+
+
+  <div class="example-box">
+    <button mat-button class="btn-orange" (click)="openDialog()"> Improve coverage</button>
+
+    <h2>What time you are open </h2>
+    <p>Found two similar uttrances</p>
+  </div>
+
+
+  <div class="example-box">
+    <button mat-icon-button class="btn-purple">
+      Underperforming
+    </button>
+    <h2>where are you folks located </h2>
+    <p>5 catch all request after reading this</p>
+  </div>
+</div>
+</div>
+
+</div>

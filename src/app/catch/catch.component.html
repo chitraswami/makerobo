@@ -1,0 +1,37 @@
+<div class="chat-container">
+  <div class="new-component" *ngIf="showComponent">
+    <h2 class="headline">Catch All</h2>
+    <p class="paragraph">When instinct AI fails to understand user utternance, you can choose one of the option to manage the bot failure without degrading user experience </p>
+
+    <div class="human-handoff-panel">
+      <mat-panel-title>
+        <select class="form-control" id="exampleFormControl">
+          <option>Human handoff</option>
+          <option>Add reply</option>
+        </select>
+      </mat-panel-title>
+    </div>
+
+    <div class="input-container">
+      <h3 class="input-header">Add reply</h3>
+      <div class="input-box">
+        <div class="box"></div>
+      </div>
+      <button class="btn">
+        <span class="icon">+</span>Add random message
+      </button>
+    </div>
+
+
+
+
+    <h2 class="headline">Human handoff</h2>
+
+    <mat-expansion-panel class="assign-agent-panel">
+      <mat-expansion-panel-header>
+        <mat-panel-title>Assign Agent</mat-panel-title>
+      </mat-expansion-panel-header>
+    </mat-expansion-panel>
+
+  </div>
+</div>
